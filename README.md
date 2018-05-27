@@ -1,6 +1,6 @@
 # my-music-app
 
-> A Vue.js project
+> A Vue.js project test
 
 ## Build Setup
 
