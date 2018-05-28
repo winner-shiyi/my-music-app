@@ -10,6 +10,11 @@ Vue.use(Router) // 注册
 
 export default new Router({
   routes: [
+    // 保证初次访问根路由http://localhost:8080/的时候，有一个默认选中的页面
+    {
+      path: '/',
+      redirect: '/recommend'
+    },
     {
       path: '/recommend',
       name: 'Recommend',
