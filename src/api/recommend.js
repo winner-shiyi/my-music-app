@@ -1,5 +1,13 @@
+/*
+ * @Author: weina
+ * @Date: 2018-06-10 23:43:30
+ */
+
 import jsonp from 'common/js/jsonp'
-import { commonParam, options } from './config'
+import {
+  commonParam,
+  options
+} from './config'
 
 export function getRecommend() {
   const url = 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg'
